@@ -13,10 +13,10 @@ class VFMigrator {
   val spark = SparkSession.builder().config(conf).getOrCreate()
 
   val table = "Transaction"
-  val db = "LuckyPlay"
-  val user = "dbadmin"
-  val password = "Park3r20994"
-  val host = "172.30.3.136"
+  val db = "xxxx"
+  val user = "xxxx"
+  val password = "xxxx"
+  val host = "xxxx"
   val port = 5433
   val schema = "VegasFever"
   val opt = Map("host" -> host, "table" -> table, "db" -> db, "user" -> user, "password" -> password,"dbschema"->schema)
